@@ -1,0 +1,244 @@
+{
+  "colleges": [
+    {
+      "name": "Algonquin",
+      "url": "https://www.ontariocolleges.ca/Content/Images/colleges-logos/ALGO/logo_tile.png",
+      "Branch": [
+        {
+          "branchname": "Ottawa",
+          "address": "1385 Woodroffe Avenue, Ottawa, ON, K2G1V8",
+          "lng": -75.7572748,
+          "lat": 45.3479852
+        },
+        {
+          "branchname": "Perth",
+          "address": "7 Craig Street, Perth, ON, K7H1X7",
+          "lng": -76.237907,
+          "lat": 44.902335
+        },
+        {
+          "branchname": "Pembroke",
+          "address": "1 College Way, Pembroke, ON, K8A0C8",
+          "lng": -76.237907,
+          "lat": 44.902335
+        }
+      ]
+    },
+    {
+      "name": "Cambrian",
+      "url": "https://www.ontariocolleges.ca/Content/Images/colleges-logos/CAMB/logo_tile.png",
+      "Branch": [
+        {
+          "branchname": "Main",
+          "address": "14001 Barrydowne Road, Sudbury, ON, P3A3V8",
+          "lng": -80.9411299,
+          "lat": 46.5297829
+        },
+        {
+          "branchname": "Espanola",
+          "address": "71 Craig Street, Perth, ON, P5E1S6",
+          "lng": -81.770835,
+          "lat": 46.265624
+        },
+        {
+          "branchname": "Manitoulin",
+          "address": "7 Water Street, Little Current, ON, P0P1K0",
+          "lng": -81.92691,
+          "lat": 45.981272
+        }
+      ]
+    },
+    {
+      "name": "Canadore",
+      "url": "https://www.ontariocolleges.ca/Content/Images/colleges-logos/CANA/logo_tile.png",
+      "Branch": [
+        {
+          "branchname": "Aviation Technology",
+          "address": "55 Aviation Avenue, North Bay, ON, P1B8G2",
+          "lng": -79.491835,
+          "lat": 46.343684
+        },
+        {
+          "branchname": "Commerce Court",
+          "address": "60 Commerce Crescent, North Bay, ON, P1B8G4",
+          "lng": -79.433405,
+          "lat": 46.356673
+        },
+        {
+          "branchname": "West Parry Sound",
+          "address": "1 College Drive, Parry Sound, ON, P2A0A9",
+          "lng": -80.039019,
+          "lat": 45.361363
+        }
+      ]
+    },
+    {
+      "name": "George Brown",
+      "url": "https://www.ontariocolleges.ca/Content/Images/colleges-logos/GBTC/logo_tile.png",
+      "Branch": [
+        {
+          "branchname": "St. James",
+          "address": "200 King Street East, Toronto, ON, M5A3W8",
+          "lng": -79.370255,
+          "lat": 43.650997
+        },
+        {
+          "branchname": "Casa Loma",
+          "address": "160 Kendal Avenue, Toronto, ON, M5R1M3",
+          "lng": -79.410414,
+          "lat": 43.675593
+        },
+        {
+          "branchname": "Ryerson University",
+          "address": "99 Gerrard Street East, Toronto, ON, M5B2K8",
+          "lng": -79.37709,
+          "lat": 43.66018
+        },
+        {
+          "branchname": "School of Performing Arts",
+          "address": "51 Dockside Drive, Toronto, ON, M5A3C4",
+          "lng": -79.358572,
+          "lat": 43.650679
+        },
+        {
+          "branchname": "Waterfront",
+          "address": "51 Dockside Drive, Toronto , ON, M5A0B6",
+          "lng": -79.366275,
+          "lat": 43.64415
+        }
+      ]
+    },
+    {
+      "name": "Conestoga",
+      "url": "https://www.ontariocolleges.ca/Content/Images/colleges-logos/CONS/logo_tile.png",
+      "Branch": [
+        {
+          "branchname": "Doon",
+          "address": "299 Doon Valley Drive,Kitchener , ON, N2G4M4",
+          "lng": -80.405263,
+          "lat": 43.389708
+        },
+        {
+          "branchname": "Brantford",
+          "address": "95 Darling Street,Brantford , ON, N3T2K7",
+          "lng": -80.262788,
+          "lat": 43.140287
+        },
+        {
+          "branchname": "Cambridge",
+          "address": "850 Fountain Street South,Cambridge , ON, N3H0A8",
+          "lng": -80.397584,
+          "lat": 43.387008
+        },
+        {
+          "branchname": "Guelph",
+          "address": "460 Speedvale Avenue West,Guelph , ON, N1H0A8",
+          "lng": -80.294031,
+          "lat": 43.538385
+        },
+        {
+          "branchname": "Ingersoll",
+          "address": "420 Thomas Street,Ingersoll , ON, N5C3J7",
+          "lng": -80.896057,
+          "lat": 43.025522
+        },
+        {
+          "branchname": "Waterloo",
+          "address": "108 University Avenue East,Waterloo , ON, N2J2W2",
+          "lng": -80.517919,
+          "lat": 43.479137
+        }
+      ]
+    },
+    {
+      "name": "Fanshawe",
+      "url": "https://www.ontariocolleges.ca/Content/Images/colleges-logos/FANS/logo_tile.png",
+      "Branch": [
+        {
+          "branchname": "London",
+          "address": "1001 Fanshawe College Boulevard, PO Box 7005, London, ON, N5Y5R6",
+          "lng": -81.20097,
+          "lat": 43.01392
+        },
+        {
+          "branchname": "London Downtown",
+          "address": "137 Dundas Street, ON, N6A1E9",
+          "lng": -81.250697,
+          "lat": 42.983234
+        },
+        {
+          "branchname": "Simcoe / Norfolk Regional Campus",
+          "address": "634 Ireland Road, Simcoe, ON, N3Y4K8",
+          "lng": -80.397584,
+          "lat": 43.387008
+        },
+        {
+          "branchname": "St. Thomas / Elgin Regional Campus",
+          "address": "120 Bill Martyn Parkway, St. Thomas, ON, N5R6A7",
+          "lng": -81.16991,
+          "lat": 42.754237
+        },
+        {
+          "branchname": "Woodstock / Oxford Regional Campus",
+          "address": "420 Thomas Street,Ingersoll , ON, N5C3J7",
+          "lng": -80.751207,
+          "lat": 43.114769
+        },
+        {
+          "branchname": "Huron / Bruce Regional Sites - Clinton",
+          "address": "369 Finkle Street, Clinton , ON, N4V1A3",
+          "lng": -81.5381551,
+          "lat": 43.6233943
+        },
+        {
+          "branchname": "Huron / Bruce Regional Sites - Goderich",
+          "address": "169 Beech Street, Goderich , ON, N0M1L0",
+          "lng": -81.7120399,
+          "lat": 43.479137
+        },
+        {
+          "branchname": "Huron / Bruce Regional Sites - Kincardine",
+          "address": "385 Queen Street, Kincardine , ON, N2Z2R4",
+          "lng": -81.6444887,
+          "lat": 43.7421982
+        },
+        {
+          "branchname": "Huron / Bruce Regional Sites - Stratford",
+          "address": "240 Oakdale Avenue, Stratford , ON, N5A7W2",
+          "lng": -80.517919,
+          "lat": 43.479137
+        },
+        {
+          "branchname": "Huron / Bruce Regional Sites - Tiverton",
+          "address": "117 Farrell Drive, County Road 20, Tiverton , ON, N0G2T0",
+          "lng": -81.5549544,
+          "lat": 44.3093968
+        }
+      ]
+    },
+    {
+      "name": "Durham",
+      "url": "https://www.ontariocolleges.ca/Content/Images/colleges-logos/DURH/logo_tile.png",
+      "Branch": [
+        {
+          "branchname": "Oshawa",
+          "address": "2000 Simcoe Street North, Oshawa, ON, L1H7K4",
+          "lng": -78.894646,
+          "lat": 43.946902
+        },
+        {
+          "branchname": "Pickering Learning Site",
+          "address": "1340 Pickering Parkway, Unit 102, Pickering, ON, L1V0C4",
+          "lng": -79.082015,
+          "lat": 43.834743
+        },
+        {
+          "branchname": "Whitby",
+          "address": "1610 Champlain Avenue, Whitby, ON, L1N6A7",
+          "lng": -78.900633,
+          "lat": 43.872267
+        }
+      ]
+    }
+  ]
+}

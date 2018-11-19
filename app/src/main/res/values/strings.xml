@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Ontario Colleges</string>
+    <string name="show_in_map">Show All in Map</string>
+    <string name="title_activity_maps">Map</string>
+</resources>
