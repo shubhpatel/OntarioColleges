@@ -73,6 +73,54 @@
       ]
     },
     {
+      "name": "Centennial",
+      "url": "https://www.ontariocolleges.ca/Content/Images/colleges-logos/CENT/logo_tile.png",
+      "Branch": [
+        {
+          "branchname": "Progress",
+          "address": "941 Progress Avenue ,Toronto, ON, M1G3T8",
+          "lng": -79.228163,
+          "lat": 43.785192
+        },
+        {
+          "branchname": "Ashtonbee",
+          "address": "75 Ashtonbee Road, Toronto, ON, M1L4C9",
+          "lng": -79.291656,
+          "lat": 43.730499
+        },
+        {
+          "branchname": "Downsview",
+          "address": "65 Carl Hall Road, Toronto ,ON, M1C5J9",
+          "lng": -79.4775298,
+          "lat": 43.7477634
+        },
+        {
+          "branchname": "Morningside",
+          "address": "755 Morningside Avenue, Toronto , ON, M3K2E1",
+          "lng": -79.192672,
+          "lat": 43.786525
+        },
+        {
+          "branchname": "Story Arts Centre",
+          "address": "951 Carlaw Avenue, Toronto , ON, M4K3M2",
+          "lng": -79.348926,
+          "lat": 43.684744
+        },
+        {
+          "branchname": "Eglinton Learning Site",
+          "address": "124 Eglinton Avenue West, Toronto , ON, M4R2G8",
+          "lng": -79.4046986,
+          "lat": 43.706029
+        },
+        {
+          "branchname": "Eglinton Learning Site",
+          "address": "1340 Pickering Parkway, Pickering , ON, L1V0C4",
+          "lng": -79.0884445,
+          "lat": 43.8329804
+        }
+      ]
+    },
+    {
       "name": "George Brown",
       "url": "https://www.ontariocolleges.ca/Content/Images/colleges-logos/GBTC/logo_tile.png",
       "Branch": [
