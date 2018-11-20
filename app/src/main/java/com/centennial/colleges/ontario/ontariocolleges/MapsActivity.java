@@ -29,7 +29,7 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
     Colleges colleges;
     int position, branchPosition;
     Context mContext;
-    Boolean isBranch;
+    Boolean isBranch, isAll;
     private GoogleMap mMap;
 
     @Override
@@ -39,12 +39,17 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
 
         mContext = this;
 
-        position = getIntent().getIntExtra("position", 0);
+        isAll = getIntent().getBooleanExtra("all", false);
 
-        isBranch = getIntent().getBooleanExtra("isBranch", false);
+        if (!isAll) {
 
-        if (isBranch) {
-            branchPosition = getIntent().getIntExtra("branchPosition", 0);
+            position = getIntent().getIntExtra("position", 0);
+
+            isBranch = getIntent().getBooleanExtra("isBranch", false);
+
+            if (isBranch) {
+                branchPosition = getIntent().getIntExtra("branchPosition", 0);
+            }
         }
 
 
@@ -129,22 +134,39 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
 //        mMap.addMarker(new MarkerOptions().position(sydney).title("Marker in Sydney"));
 //        mMap.moveCamera(CameraUpdateFactory.newLatLng(sydney));
 
-        Colleges.College college = colleges.collegeList.get(position);
+        if (isAll) {
 
-        if (isBranch) {
-            Colleges.College.Branch branch = college.branches.get(branchPosition);
-            mMap.addMarker(new MarkerOptions().position(new LatLng(branch.lat, branch.lng)).title(college.getName() + " College\n" + branch.getBranchname() + " Campus").snippet(branch.getAddress()));
-            mMap.moveCamera(CameraUpdateFactory.newLatLng(new LatLng(branch.lat, branch.lng)));
-        } else {
             LatLng tmp = new LatLng(55.585901, -105.750596);
-            for (Colleges.College.Branch branch : college.branches) {
-                tmp = new LatLng(branch.lat, branch.lng);
-                mMap.addMarker(new MarkerOptions().position(tmp).title(college.getName() + " College\n" + branch.getBranchname() + " Campus").snippet(branch.getAddress()));
+
+            for (Colleges.College college : colleges.collegeList) {
+                for (Colleges.College.Branch branch : college.branches) {
+                    tmp = new LatLng(branch.lat, branch.lng);
+                    mMap.addMarker(new MarkerOptions().position(tmp).title(college.getName() + " College\n" + branch.getBranchname() + " Campus").snippet(branch.getAddress()));
+                }
+
             }
             mMap.moveCamera(CameraUpdateFactory.newLatLng(tmp));
 
+        } else {
+
+            Colleges.College college = colleges.collegeList.get(position);
+
+            if (isBranch) {
+                Colleges.College.Branch branch = college.branches.get(branchPosition);
+                mMap.addMarker(new MarkerOptions().position(new LatLng(branch.lat, branch.lng)).title(college.getName() + " College\n" + branch.getBranchname() + " Campus").snippet(branch.getAddress()));
+                mMap.moveCamera(CameraUpdateFactory.newLatLng(new LatLng(branch.lat, branch.lng)));
+            } else {
+                LatLng tmp = new LatLng(55.585901, -105.750596);
+                for (Colleges.College.Branch branch : college.branches) {
+                    tmp = new LatLng(branch.lat, branch.lng);
+                    mMap.addMarker(new MarkerOptions().position(tmp).title(college.getName() + " College\n" + branch.getBranchname() + " Campus").snippet(branch.getAddress()));
+                }
+                mMap.moveCamera(CameraUpdateFactory.newLatLng(tmp));
+
+            }
 
         }
+
 
     }
 
